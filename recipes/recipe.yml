@@ -29,6 +29,12 @@ modules:
 
   - type: dnf
     install:
+      install-weak-deps: false
+      packages:
+        - bottles
+
+  - type: dnf
+    install:
       packages:
         - antimicrox
         - audacity
@@ -49,11 +55,11 @@ modules:
         - HandBrake-gui
         - hydrapaper
         - inkscape
+        - kdenlive
 
   - type: dnf
     install:
       packages:
-        - kdenlive
         - kpat
         - kvantum
         - openttd
@@ -83,12 +89,6 @@ modules:
     install:
       packages:
         - lutris
-
-  - type: dnf
-    install:
-      install-weak-deps: false
-      packages:
-        - bottles
 
   - type: default-flatpaks
     configurations:
