@@ -36,6 +36,23 @@ modules:
   - type: dnf
     install:
       packages:
+        - protontricks
+
+  - type: dnf
+    install:
+      packages:
+        - lutris
+
+  - type: dnf
+    install:
+      packages:
+        - antimicrox
+        - discord
+        - protonplus
+
+  - type: dnf
+    install:
+      packages:
         - audacity
         - bustle
         - dconf-editor
@@ -45,19 +62,6 @@ modules:
         - kvantum
         - polari
         - proton-vpn-gtk-app
-
-  - type: dnf
-    install:
-      packages:
-        - antimicrox
-        - lutris
-        - protonplus
-        - protontricks
-
-  - type: dnf
-    install:
-      packages:
-        - discord
 
   - type: dnf
     install:
@@ -76,21 +80,22 @@ modules:
         - bolt-launcher
         - freedoom
         - freedoom2
+        - HandBrake-gui
+        - inkscape
         - openttd
         - osu-lazer
 
   - type: dnf
     install:
       packages:
-        - HandBrake-gui
-        - inkscape
+        - remmina
+        - signal-desktop
 
   - type: dnf
     install:
       packages:
         - pitivi
-        - remmina
-        - signal-desktop
+
 
   - type: default-flatpaks
     configurations:
