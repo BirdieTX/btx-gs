@@ -29,32 +29,66 @@ modules:
 
   - type: dnf
     install:
+      install-weak-deps: false
       packages:
-        - antimicrox
+        - bottles
+
+  - type: dnf
+    install:
+      packages:
         - audacity
-        - blender
-        - bolt-launcher
         - bustle
         - dconf-editor
-        - discord
-        - freedoom
-        - freedoom2
         - gnome-tweaks
-        - HandBrake-gui
         - hydrapaper
-        - inkscape
-        - kdenlive
         - kpat
         - kvantum
-        - gimp
-        - lutris
-        - openttd
-        - osu-lazer
-        - pitivi
         - polari
         - proton-vpn-gtk-app
+
+  - type: dnf
+    install:
+      packages:
+        - antimicrox
+        - lutris
         - protonplus
         - protontricks
+
+  - type: dnf
+    install:
+      packages:
+        - discord
+
+  - type: dnf
+    install:
+      packages:
+        - blender
+
+  - type: dnf
+    install:
+      packages:
+        - gimp
+        - kdenlive
+
+  - type: dnf
+    install:
+      packages:
+        - bolt-launcher
+        - freedoom
+        - freedoom2
+        - openttd
+        - osu-lazer
+
+  - type: dnf
+    install:
+      packages:
+        - HandBrake-gui
+        - inkscape
+
+  - type: dnf
+    install:
+      packages:
+        - pitivi
         - remmina
         - signal-desktop
 
