@@ -38,22 +38,22 @@ modules:
         - discord
         - freedoom
         - freedoom2
+        - gimp
 
   - type: dnf
     install:
       packages:
-        - gimp
         - gnome-connections
         - gnome-maps
         - gnome-tweaks
         - HandBrake-gui
         - hydrapaper
         - inkscape
-        - kdenlive
 
   - type: dnf
     install:
       packages:
+        - kdenlive
         - kpat
         - kvantum
         - openttd
@@ -72,17 +72,17 @@ modules:
   - type: dnf
     install:
       packages:
-        - lutris
-
-  - type: dnf
-    install:
-      packages:
         - pitivi
 
   - type: dnf
     install:
       packages:
         - protontricks
+
+  - type: dnf
+    install:
+      packages:
+        - lutris
 
   - type: dnf
     install:
