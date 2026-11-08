@@ -90,6 +90,10 @@ modules:
       packages:
         - lutris
 
+  - type: script
+    snippets:
+      - "rm -f /usr/share/applications com.protonvpn.www.desktop"
+
   - type: default-flatpaks
     configurations:
       - notify: false
