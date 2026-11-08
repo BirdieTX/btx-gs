@@ -34,7 +34,6 @@ modules:
         - audacity
         - blender
         - bolt-launcher
-        - bottles
         - bustle
         - dconf-editor
         - discord
