@@ -29,39 +29,40 @@ modules:
 
   - type: dnf
     install:
-      install-weak-deps: false
-      packages:
-        - bottles
-
-  - type: dnf
-    install:
-      packages:
-        - protontricks
-
-  - type: dnf
-    install:
-      packages:
-        - lutris
-
-  - type: dnf
-    install:
       packages:
         - antimicrox
+        - audacity
+        - bolt-launcher
+        - bustle
+        - dconf-editor
         - discord
-        - protonplus
+        - freedoom
+        - freedoom2
 
   - type: dnf
     install:
       packages:
-        - audacity
-        - bustle
-        - dconf-editor
+        - gimp
+        - gnome-connections
+        - gnome-maps
         - gnome-tweaks
+        - HandBrake-gui
         - hydrapaper
+        - inkscape
+        - kdenlive
+
+  - type: dnf
+    install:
+      packages:
         - kpat
         - kvantum
+        - openttd
+        - osu-lazer
         - polari
         - proton-vpn-gtk-app
+        - protonplus
+        - remmina
+        - signal-desktop
 
   - type: dnf
     install:
@@ -71,31 +72,23 @@ modules:
   - type: dnf
     install:
       packages:
-        - gimp
-        - kdenlive
-
-  - type: dnf
-    install:
-      packages:
-        - bolt-launcher
-        - freedoom
-        - freedoom2
-        - HandBrake-gui
-        - inkscape
-        - openttd
-        - osu-lazer
-
-  - type: dnf
-    install:
-      packages:
-        - remmina
-        - signal-desktop
+        - lutris
 
   - type: dnf
     install:
       packages:
         - pitivi
 
+  - type: dnf
+    install:
+      packages:
+        - protontricks
+
+  - type: dnf
+    install:
+      install-weak-deps: false
+      packages:
+        - bottles
 
   - type: default-flatpaks
     configurations:
