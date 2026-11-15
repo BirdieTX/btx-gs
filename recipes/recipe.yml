@@ -42,6 +42,7 @@ modules:
         - bustle
         - dconf-editor
         - discord
+        - fragments
         - freedoom
         - freedoom2
         - gimp
@@ -49,10 +50,10 @@ modules:
   - type: dnf
     install:
       packages:
-        - gnome-connections
-        - gnome-maps
+        - gnome-firmware
         - gnome-tweaks
         - HandBrake-gui
+        - hardinfo2
         - hydrapaper
         - inkscape
         - kdenlive
@@ -60,27 +61,42 @@ modules:
   - type: dnf
     install:
       packages:
+        - kid3
+        - kmousetool
+        - kolourpaint
         - kpat
+        - krename
+        - krita
         - kvantum
         - openttd
         - mediawriter
+        - obs-studi
+        - okteta
+        - openttd
         - osu-lazer
         - polari
         - proton-vpn-gtk-app
         - protonplus
+        - qbittorrent
         - remmina
         - signal-desktop
-
-  - type: dnf
-    install:
-      packages:
-        - gnome-boxes
         - virt-manager
+        - vlc
+        - vlc-plugins-all
+        - waycheck
 
   - type: dnf
     install:
       packages:
         - blender
+
+  - type: dnf
+    install:
+      packages:
+        - wine
+        - wine-alsa
+        - wine-pulseaudio
+        - winetricks
 
   - type: dnf
     install:
@@ -108,10 +124,8 @@ modules:
           - com.belmoussaoui.Decoder
           - com.belmoussaoui.Obfuscate
           - com.markopejic.downloader
-          - com.mattjakeman.ExtensionManager
           - com.pokemmo.PokeMMO
           - com.rafaelmardojai.Blanket
-          - com.vixalien.sticky
           - dev.bragefuglseth.Keypunch
           - io.edcd.EDMarketConnector
           - io.gitlab.adhami3310.Converter
