@@ -101,16 +101,17 @@ modules:
       packages:
         - blender
 
+  # 1 GiB
+  - type: dnf
+    install:
+      packages:
+        - flowblade
+
   # 195 MiB
   - type: dnf
     install:
       packages:
         - pitivi
-
-  - type: dnf
-    install:
-      packages:
-        - flowblade
 
   # 2 GiB
   - type: dnf
