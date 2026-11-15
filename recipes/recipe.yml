@@ -132,7 +132,7 @@ modules:
   - type: default-flatpaks
     configurations:
       - notify: false
-        scope: system
+        scope: syste
         install:
           - com.belmoussaoui.Decoder
           - com.belmoussaoui.Obfuscate
