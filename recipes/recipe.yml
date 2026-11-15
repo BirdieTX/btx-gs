@@ -27,8 +27,8 @@ modules:
     snippets:
       - "dnf5 upgrade --allow-vendor-change --assumeyes --refresh"
 
-  # Bottles is installed in its own layer without weak dependencies to avoid
-  # dependency conflicts with other packages.
+  # Bottles is installed in its own layer without weak dependencies
+  # to avoid dependency conflicts with other packages.
   - type: dnf
     install:
       install-weak-deps: false
@@ -49,13 +49,13 @@ modules:
         - freedoom
         - freedoom2
         - gimp
+        - gnome-firmware
+        - gnome-tweaks
 
-  # 792 MiB
+  # 835 MiB
   - type: dnf
     install:
       packages:
-        - gnome-firmware
-        - gnome-tweaks
         - HandBrake-gui
         - hardinfo2
         - hydrapaper
@@ -84,6 +84,10 @@ modules:
         - qbittorrent
         - remmina
         - signal-desktop
+
+  - type: dnf
+    install:
+      packages:
         - virt-manager
         - vlc
         - vlc-plugins-all
