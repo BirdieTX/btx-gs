@@ -35,7 +35,7 @@ modules:
       packages:
         - bottles
 
-  # 908 MiB
+  # 911 MiB
   - type: dnf
     install:
       packages:
@@ -51,12 +51,12 @@ modules:
         - gimp
         - gnome-firmware
         - gnome-tweaks
+        - HandBrake-gui
 
-  # 835 MiB
+  # 833 MiB
   - type: dnf
     install:
       packages:
-        - HandBrake-gui
         - hardinfo2
         - hydrapaper
         - inkscape
@@ -83,11 +83,11 @@ modules:
         - protonplus
         - qbittorrent
         - remmina
-        - signal-desktop
 
   - type: dnf
     install:
       packages:
+        - signal-desktop
         - virt-manager
         - vlc
         - vlc-plugins-all
