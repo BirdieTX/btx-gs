@@ -27,12 +27,15 @@ modules:
     snippets:
       - "dnf5 upgrade --allow-vendor-change --assumeyes --refresh"
 
+  # Bottles is installed in its own layer without weak dependencies to avoid
+  # dependency conflicts with other packages.
   - type: dnf
     install:
       install-weak-deps: false
       packages:
         - bottles
 
+  # 908 MiB
   - type: dnf
     install:
       packages:
@@ -47,6 +50,7 @@ modules:
         - freedoom2
         - gimp
 
+  # 792 MiB
   - type: dnf
     install:
       packages:
@@ -57,15 +61,15 @@ modules:
         - hydrapaper
         - inkscape
         - kdenlive
-
-  - type: dnf
-    install:
-      packages:
         - kid3
         - kmousetool
         - kolourpaint
         - kpat
         - krename
+
+  - type: dnf
+    install:
+      packages:
         - krita
         - kvantum
         - openttd
@@ -89,14 +93,6 @@ modules:
     install:
       packages:
         - blender
-
-  - type: dnf
-    install:
-      packages:
-        - wine
-        - wine-alsa
-        - wine-pulseaudio
-        - winetricks
 
   - type: dnf
     install:
