@@ -70,7 +70,7 @@ modules:
         - kvantum
         - openttd
         - mediawriter
-        - obs-studi
+        - obs-studio
         - okteta
         - openttd
         - osu-lazer
