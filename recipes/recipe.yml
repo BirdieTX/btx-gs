@@ -35,7 +35,7 @@ modules:
       packages:
         - bottles
 
-  # 911 MiB
+  # 916 MiB
   - type: dnf
     install:
       packages:
@@ -52,13 +52,13 @@ modules:
         - gnome-firmware
         - gnome-tweaks
         - HandBrake-gui
+        - hardinfo2
+        - hydrapaper
 
   # 833 MiB
   - type: dnf
     install:
       packages:
-        - hardinfo2
-        - hydrapaper
         - inkscape
         - kdenlive
         - kid3
@@ -66,11 +66,11 @@ modules:
         - kolourpaint
         - kpat
         - krename
+        - krita
 
   - type: dnf
     install:
       packages:
-        - krita
         - kvantum
         - openttd
         - mediawriter
